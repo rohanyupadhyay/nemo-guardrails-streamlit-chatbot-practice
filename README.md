@@ -12,7 +12,14 @@ A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Create a `.env` file
+
+   ```
+   OPENAI_API_KEY=your_openai_api_key
+   OPENAI_MODEL=gpt-4o-mini
+   ```
+
+3. Run the app
 
    ```
    $ streamlit run streamlit_app.py
