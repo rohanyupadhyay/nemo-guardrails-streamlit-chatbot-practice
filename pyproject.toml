@@ -1,0 +1,12 @@
+[project]
+name = "chatbot-template"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "nemoguardrails>=0.21.0",
+    "openai>=2.0.0",
+    "pip>=26.1.1",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.0.0",
+]
